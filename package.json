@@ -1,7 +1,7 @@
 {
   "name": "css-sourcemaps-webpack-plugin",
   "version": "1.0.0",
-  "description": "CSS Sourcemap configuration for CSS, Less, Stylus and Sass",
+  "description": "Simple CSS Sourcemap configuration for CSS, Less, Stylus and Sass",
   "main": "index.js",
   "scripts": {
     "test": "semistandard"
@@ -17,6 +17,10 @@
   "license": "MIT",
   "dependencies": {
     "loader-utils": "^0.2.12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jantimon/css-sourcemaps-webpack-plugin.git"
   },
   "files": ["index.js"],
   "devDependencies": {
