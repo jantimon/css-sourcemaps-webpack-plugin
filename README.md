@@ -34,7 +34,7 @@ module.exports = {
 Production
 -----------
 
-You can easily disable the plugin for production configuration:
+You can easily **disable the plugin** for your production build:
 
 ```js
 var CssSourcemapPlugin = require('css-sourcemaps-webpack-plugin');
@@ -49,6 +49,6 @@ module.exports = {
       { test: /\.scss$/, loader: 'style!css!sass' }
     ]
   },
-  plugins: [new CssSourcemapPlugin({disable: false})]
+  plugins: [new CssSourcemapPlugin({disable: true})]
 }
 ```
