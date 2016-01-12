@@ -1,5 +1,6 @@
 CSS Sourcemap Webpack Plugin
 ===================
+[![npm version](https://badge.fury.io/js/css-sourcemaps-webpack-plugin.svg)](http://badge.fury.io/js/css-sourcemaps-webpack-plugin) [![Dependency Status](https://david-dm.org/jantimon/css-sourcemaps-webpack-plugin.svg)](https://david-dm.org/jantimon/css-sourcemaps-webpack-plugin) [![Build status](https://travis-ci.org/jantimon/css-sourcemaps-webpack-plugin.svg)](https://travis-ci.org/jantimon/css-sourcemaps-webpack-plugin)
 
 This is a [webpack](http://webpack.github.io/) plugin that simplifies the usage
 of CSS source maps.
