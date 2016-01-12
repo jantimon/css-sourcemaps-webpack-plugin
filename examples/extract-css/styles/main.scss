@@ -1,0 +1,11 @@
+@import "mixins";
+
+@include greenBody();
+
+// Nesting demo
+html {
+  &, body {
+    height: 100%;
+    margin: 0;
+  }
+}

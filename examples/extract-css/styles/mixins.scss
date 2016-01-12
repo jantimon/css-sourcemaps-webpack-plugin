@@ -1,0 +1,6 @@
+// Mixin demo
+@mixin greenBody() {
+  body {
+    background: linear-gradient(to bottom, rgba(201,222,150,1) 0%,rgba(138,182,107,1) 44%,rgba(57,130,53,1) 100%);
+  }
+}

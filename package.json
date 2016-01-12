@@ -1,0 +1,33 @@
+{
+  "name": "css-sourcemaps-webpack-plugin",
+  "version": "1.0.0",
+  "description": "CSS Sourcemap configuration for CSS, Less, Stylus and Sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "semistandard"
+  },
+  "keywords": [
+    "webpack",
+    "css",
+    "sass",
+    "less",
+    "sourcemaps"
+  ],
+  "author": "Jan Nicklas",
+  "license": "MIT",
+  "dependencies": {
+    "loader-utils": "^0.2.12",
+    "semistandard": "^7.0.4"
+  },
+  "files": ["index.js"],
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "less": "^2.5.3",
+    "less-loader": "^2.2.2",
+    "node-sass": "^3.4.2",
+    "sass-loader": "^3.1.2",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.11"
+  }
+}
