@@ -16,8 +16,7 @@
   "author": "Jan Nicklas",
   "license": "MIT",
   "dependencies": {
-    "loader-utils": "^0.2.12",
-    "semistandard": "^7.0.4"
+    "loader-utils": "^0.2.12"
   },
   "files": ["index.js"],
   "devDependencies": {
@@ -27,6 +26,7 @@
     "less-loader": "^2.2.2",
     "node-sass": "^3.4.2",
     "sass-loader": "^3.1.2",
+    "semistandard": "^7.0.4",
     "style-loader": "^0.13.0",
     "webpack": "^1.12.11"
   }
