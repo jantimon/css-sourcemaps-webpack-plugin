@@ -36,6 +36,7 @@ Production
 
 You can easily disable the plugin for production configuration:
 
+```js
 var CssSourcemapPlugin = require('css-sourcemaps-webpack-plugin');
 module.exports = {
   entry: 'index.js',
@@ -50,3 +51,4 @@ module.exports = {
   },
   plugins: [new CssSourcemapPlugin({disable: false})]
 }
+```
