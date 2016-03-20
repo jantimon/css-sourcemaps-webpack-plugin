@@ -49,8 +49,8 @@ CssSourcemapPlugin.prototype.apply = function (compiler) {
 
 CssSourcemapPlugin.prototype.processRequest = function (request, loader) {
   var requestParts = request.split('?');
-  var query = loaderUtils.parseQuery(!!requestParts[1] ? '?' + requestParts[1] : '');
-  
+  var query = loaderUtils.parseQuery(requestParts[1] ? '?' + requestParts[1] : '');
+
   switch (loader) {
     case 'css':
     case 'less':
