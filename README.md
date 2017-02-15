@@ -50,6 +50,6 @@ module.exports = {
       { test: /\.scss$/, loader: 'style!css!sass' }
     ]
   },
-  plugins: [new CssSourcemapPlugin({disable: true})]
+  plugins: [new CssSourcemapPlugin({disabled: true})]
 }
 ```
